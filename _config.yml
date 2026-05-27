@@ -23,7 +23,7 @@ urls:
     - text: Contact
       url : /contact
     - text: Write-ups
-      url : /write-ups
+      url : /write-ups/
     
 
 
