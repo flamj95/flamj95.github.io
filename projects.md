@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Projects
 
-Here are some of my cybersecurity projects and labs.
+Here are some of my cybersecurity projects and labs. You can find more information and details in the Write-Up page.
 
 ## Home Cybersecurity Lab
 
@@ -40,6 +40,7 @@ Configured a Windows Server Active Directory environment to practice domain admi
 - Organizational Units
 - Group Policy basics
 - Windows client domain joining
+- RADIUS configuration
 
 ---
 
