@@ -31,8 +31,8 @@ author: Joseph Flammia
 author_bio: Hi, my name is Joseph Flammia. I am a student currently studying cybersecurity. I have just finished my two years at Suffolk County Community College, and plan on transferring to the University At Albany for my next semester. This site was made to showcase the cybersecurity skills I have learned!
 author_email: "josephflammia12@outlook.com"
 author_location: USA
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+#author_website_url: "https://sujaykundu.com"
+typewrite-text: This website's purpose is to display my cybersecurity skills I have learned.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
