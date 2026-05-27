@@ -18,10 +18,13 @@ urls:
       #url: /gallery
     #- text: Shop
       #url : /shop
-    - text: Contact
-      url : /contact
     - text: Projects
       url: /projects/
+    - text: Contact
+      url : /contact
+    - text: Write-ups
+      url : /write-up/
+    
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
