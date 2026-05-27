@@ -22,7 +22,7 @@ urls:
       url: /projects/
     - text: Contact
       url : /contact
-    - text: Write-ups
+    - text: Writeups
       url : /writeups/
     
 
