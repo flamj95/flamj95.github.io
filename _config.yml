@@ -39,7 +39,7 @@ typewrite-text: This website's purpose is to display my cybersecurity skills I h
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
-#author_work_experiences:
+author_work_experiences:
             - company_name: Google
               company_logo: google.png
               company_url: https://google.com
@@ -54,7 +54,7 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
               visibility: true
 
 # Education
-#author_education_details:
+author_education_details:
               - college_logo: mit.png
                 college_name: MIT
                 college_url: https://mit.org
@@ -63,7 +63,7 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
                 visibility: true
 
 # Projects
-#author_project_details:
+author_project_details:
               - project_thumbnail: gamershub.png
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
