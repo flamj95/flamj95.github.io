@@ -15,20 +15,24 @@ Here are some of my most prominent cybersecurity projects. You can find more inf
 Built a fully functional multi-level network consisting of several technologies such as networking, authentication, monitoring, and security configuration on an enterprise styled level.
 
 **Skills demonstrated:**
-- Network segmentation
-- Static IP addressing
-- Firewall rules
+- VLANs and Routing
+- Certificate Creation
+- Access Control Lists
 - Linux and Windows administration
 - Vulnerability scanning
 - Monitoring
+- Documentation
 
 **Tools/technologies:**
 - Windows Server
-- CentOS
+- Linux Systems
+- Apache
 - Active Directory
 - Nagios
 - Wireshark
 - Nessus/OpenVAS
+- Cisco Switching
+- VMware/ESXi
 
 ---
 
