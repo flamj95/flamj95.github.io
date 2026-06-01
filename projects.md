@@ -8,9 +8,11 @@ permalink: /projects/
 
 Here are some of my most prominent cybersecurity projects. You can find more information and details in the write-up page.
 
-## Home Cybersecurity Lab
+## Capstone Project
 
-Built a home lab to practice networking, system administration, and defensive security concepts.
+<img src="/assets/img/projects/capstone-lab.png" alt="Capstone Lab Screenshot" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+
+Built a fully functional multi-level network consisting of several technologies such as networking, authentication, monitoring, and security configuration on an enterprise styled level.
 
 **Skills demonstrated:**
 - Network segmentation
