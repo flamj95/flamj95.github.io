@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Projects
 
-Here are some of my cybersecurity projects and labs. You can find more information and details in the write-Up page.
+Here are some of my most prominent cybersecurity projects. You can find more information and details in the write-up page.
 
 ## Home Cybersecurity Lab
 
