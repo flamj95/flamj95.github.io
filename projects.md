@@ -10,7 +10,7 @@ Here are some of my most prominent cybersecurity projects. You can find more inf
 
 ## Capstone Project
 
-<img src="/assets/img/projects/capstone-lab.png" alt="Capstone Lab Screenshot" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+<img src="/assets/img/projects/capstone.png" alt="Capstone Lab Screenshot" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
 
 Built a fully functional multi-level network consisting of several technologies such as networking, authentication, monitoring, and security configuration on an enterprise styled level.
 
