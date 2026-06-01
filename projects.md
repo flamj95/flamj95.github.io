@@ -16,19 +16,37 @@ Here are some of my most prominent cybersecurity projects. You can find more inf
 
 Built a fully functional multi-level cybersecurity lab consisting of several technologies such as networking, authentication, monitoring, and security configuration on an enterprise styled level. This environment was built over the course of four months, and allowed me to incorporate learned skills such as routing, networking monitoring, vulnerability scanning, technical documentation, and more. This cybersecurity project gave me the opportunity to demonstrate hands-on the cybersecurity skills I have learned over the past two years, while also experimenting with new tools and technology.
 
-<p><strong>**Skills demonstrated:**</strong> VLANs and routing, certificate creation, access control lists, Linux and Windows administration, vulnerability scanning, network monitoring, and technical documentation.</p>
+<div style="display: flex; gap: 25px; margin-top: 20px; flex-wrap: wrap;">
 
+  <div class="card" style="flex: 1; min-width: 280px; padding: 20px;">
+    <h3>Skills Demonstrated</h3>
+    <ul>
+      <li>VLANs and routing</li>
+      <li>Certificate creation</li>
+      <li>Access Control Lists</li>
+      <li>Linux and Windows administration</li>
+      <li>Vulnerability scanning</li>
+      <li>Network monitoring</li>
+      <li>Technical documentation</li>
+    </ul>
+  </div>
 
-**Tools/technologies:**
-- Windows Server
-- Linux Systems
-- Apache
-- Active Directory
-- Nagios
-- Wireshark
-- Nessus/OpenVAS
-- Cisco Switching
-- VMware/ESXi
+  <div class="card" style="flex: 1; min-width: 280px; padding: 20px;">
+    <h3>Tools & Technologies</h3>
+    <ul>
+      <li>Windows Server</li>
+      <li>Linux systems</li>
+      <li>Apache</li>
+      <li>Active Directory</li>
+      <li>Nagios</li>
+      <li>Wireshark</li>
+      <li>Nessus/OpenVAS</li>
+      <li>Cisco switching</li>
+      <li>VMware/ESXi</li>
+    </ul>
+  </div>
+
+</div>
 
 ---
 
