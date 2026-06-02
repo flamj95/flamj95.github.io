@@ -4,7 +4,9 @@ title: Writeups
 permalink: /writeups/
 ---
 
-# Planned Writeups
+# Write-ups
+
+Here you can find some of my write=ups that I have written regarding several different corners of cybersecurity. These range from networking, penetration testing, infrastructure, Active Directory, and full on lab network deployments.
 
 
 <h2>Capstone Project</h2>
