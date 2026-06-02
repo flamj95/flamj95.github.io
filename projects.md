@@ -52,6 +52,8 @@ Built a fully functional multi-level cybersecurity lab consisting of several tec
 
 ## Active Directory & Windows Server Labs
 
+<img src="/assets/img/ad.png" alt="Active Directory Lab Screenshot" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+
 Configured a Windows Server Active Directory environment to practice domain administration and authentication concepts.
 
 **Skills demonstrated:**
