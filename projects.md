@@ -56,13 +56,36 @@ Built a fully functional multi-level cybersecurity lab consisting of several tec
 
 Configured a Windows Server Active Directory environment to practice domain administration and authentication concepts.
 
-**Skills demonstrated:**
-- Domain controller setup
-- User and group management
-- Organizational Units
-- Group Policy basics
-- Windows client domain joining
-- RADIUS configuration
+<div style="display: flex; gap: 25px; margin-top: 20px; flex-wrap: wrap;">
+
+  <div class="card" style="flex: 1; min-width: 280px; padding: 20px;">
+    <h3>Skills Demonstrated</h3>
+    <ul>
+      <li>Active Directory Domain Services</li>
+      <li>User, group, and OU management</li>
+      <li>Domain authentication</li>
+      <li>DNS and DHCP configuration</li>
+      <li>Group Policy basics</li>
+      <li>Windows Server administration</li>
+      <li>Client domain joining</li>
+    </ul>
+  </div>
+
+  <div class="card" style="flex: 1; min-width: 280px; padding: 20px;">
+    <h3>Tools & Technologies</h3>
+    <ul>
+      <li>Windows Server</li>
+      <li>Active Directory Domain Services</li>
+      <li>Active Directory Users and Computers</li>
+      <li>DNS Manager</li>
+      <li>DHCP Manager</li>
+      <li>Group Policy Management</li>
+      <li>Windows client systems</li>
+      <li>VMware/virtualized lab environment</li>
+    </ul>
+  </div>
+
+</div>
 
 ---
 
