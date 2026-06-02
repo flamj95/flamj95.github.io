@@ -6,7 +6,7 @@ permalink: /writeups/
 
 # Write-ups
 
-Here you can find some of my write=ups that I have written regarding several different corners of cybersecurity. These range from networking, penetration testing, infrastructure, Active Directory, and full on lab network deployments.
+Here you can find some of my write-ups that I have written regarding several different corners of cybersecurity. These range from networking, penetration testing, infrastructure, Active Directory, and full on lab network deployments.
 
 
 <h2>Capstone Project</h2>
@@ -21,7 +21,7 @@ Here you can find some of my write=ups that I have written regarding several dif
   <p><strong>Focus:</strong> Networking, infrastructure, Windows/Linux administration, Active Directory, DHCP, DNS, and routing.</p>
 
   <p>
-    <a href="/assets/writeups/capstone-part-1.pdf" target="_blank">View PDF Write-up</a>
+    <a href="/assets/capstone-part-1.pdf" target="_blank">View PDF Write-up</a>
   </p>
 </div>
 
@@ -35,7 +35,7 @@ Here you can find some of my write=ups that I have written regarding several dif
   <p><strong>Focus:</strong> Certificates, monitoring, vulnerability scanning, access control, documentation, and defensive security.</p>
 
   <p>
-    <a href="/assets/writeups/capstone-part-2.pdf" target="_blank">View PDF Write-up</a>
+    <a href="/assets/capstone-part-2.pdf" target="_blank">View PDF Write-up</a>
   </p>
 </div>
 
