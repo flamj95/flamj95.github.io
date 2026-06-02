@@ -12,7 +12,7 @@ Here are some of my most prominent cybersecurity projects. You can find more inf
 
 ## Capstone Project
 
-<img src="/assets/img/capstone.png" alt="Capstone Lab Screenshot" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+<img src="/assets/img/capstone2.png" alt="Capstone Lab Screenshot" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
 
 Built a fully functional multi-level cybersecurity lab consisting of several technologies such as networking, authentication, monitoring, and security configuration on an enterprise styled level. This environment was built over the course of four months, and allowed me to incorporate learned skills such as routing, networking monitoring, vulnerability scanning, technical documentation, and more. This cybersecurity project gave me the opportunity to demonstrate hands-on the cybersecurity skills I have learned over the past two years, while also experimenting with new tools and technology.
 
