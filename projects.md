@@ -50,7 +50,7 @@ Built a fully functional multi-level cybersecurity lab consisting of several tec
 
 ---
 
-## Active Directory Lab
+## Active Directory & Windows Server Labs
 
 Configured a Windows Server Active Directory environment to practice domain administration and authentication concepts.
 
