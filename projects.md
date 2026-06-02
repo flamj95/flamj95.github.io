@@ -91,16 +91,36 @@ Configured a Windows Server Active Directory environment to practice domain admi
 
 ## Digital Forensics Investigation
 
+<img src="/assets/img/forensics.png" alt="Forensics Screenshot" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+
 Practiced forensic investigation workflow using open-source tools and proper evidence-handling concepts.
 
-**Skills demonstrated:**
-- Evidence documentation
-- Chain of custody concepts
-- File system analysis
-- Artifact review
-- Timeline building
+<div style="display: flex; gap: 25px; margin-top: 20px; flex-wrap: wrap;">
 
-**Tools/technologies:**
-- Autopsy
-- FTK Imager
-- Volatility
+  <div class="card" style="flex: 1; min-width: 280px; padding: 20px;">
+    <h3>Skills Demonstrated</h3>
+    <ul>
+      <li>Digital evidence review</li>
+      <li>Forensic artifact analysis</li>
+      <li>Keyword searching</li>
+      <li>File system analysis</li>
+      <li>Browser artifact review</li>
+      <li>Timeline analysis</li>
+      <li>Investigation documentation</li>
+    </ul>
+  </div>
+
+  <div class="card" style="flex: 1; min-width: 280px; padding: 20px;">
+    <h3>Tools & Technologies</h3>
+    <ul>
+      <li>Autopsy</li>
+      <li>FTK Imager</li>
+      <li>Windows forensic image</li>
+      <li>Keyword search artifacts</li>
+      <li>Web cache artifacts</li>
+      <li>File metadata</li>
+      <li>Timeline/event data</li>
+    </ul>
+  </div>
+
+</div>
