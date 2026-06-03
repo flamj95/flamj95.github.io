@@ -280,3 +280,34 @@ Here you can find some of my write-ups that I have written regarding several dif
     </a>
   </p>
 </div>
+
+<div class="card" style="padding: 20px; margin-bottom: 25px;">
+  <h3>Memory Forensics CTF Investigation</h3>
+
+  <p>
+    This write-up focused on completing a memory forensics CTF challenge using a Windows memory dump. 
+    The investigation involved identifying the correct memory profile, reviewing active processes, 
+    analyzing command-line activity, locating hidden files, extracting artifacts, decoding data, and 
+    using reverse engineering techniques to recover final evidence.
+  </p>
+
+  <p>
+    <strong>Focus:</strong> memory forensics, process analysis, artifact extraction, browser history artifacts, 
+    encoded data, file recovery, and reverse engineering.
+  </p>
+
+  <p>
+    <strong>Skills demonstrated:</strong> Volatility analysis, memory dump investigation, command-line analysis, 
+    forensic artifact review, file extraction, base64 decoding, and static analysis with IDA.
+  </p>
+
+  <p>
+    <strong>Note:</strong> This write-up contains spoilers and final flag values for a completed public CTF challenge.
+  </p>
+
+  <p>
+    <a href="/assets/writeups/memory-forensics-ctf-investigation.pdf" target="_blank">
+      View PDF Write-up
+    </a>
+  </p>
+</div>
