@@ -306,7 +306,7 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 
   <p>
-    <a href="/assets/writeups/memory-forensics-ctf-investigation.pdf" target="_blank">
+    <a href="/assets/memory-forensics-ctf-investigation.pdf" target="_blank">
       View PDF Write-up
     </a>
   </p>
