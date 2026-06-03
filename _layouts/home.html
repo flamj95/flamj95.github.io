@@ -2,58 +2,72 @@
 layout: full-width
 ---
 
-<script>
-  $(document).ready(function() {
-    $("#typewriteText").typewrite({
-      actions: [{ type: "{{site.typewrite-text}}" }]
-    });
-  });
-</script>
+<section style="width: 100%; min-height: 650px; display: flex; align-items: center; justify-content: center; text-align: center; padding: 120px 25px 80px 25px; background-image: url('/assets/img/banner.jpg'); background-size: cover; background-position: center;">
+  <div style="max-width: 900px; margin: 0 auto;">
 
-<!-- Hero section -->
-{%- include hero.html -%}
+    <img 
+      src="/assets/img/{{ site.author_logo }}" 
+      alt="Joseph Flammia profile picture"
+      style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; margin-bottom: 30px;"
+    >
 
-<!-- Featured Write-ups section -->
-<div class="featured-writeups-wrapper">
-  <section class="featured-writeups-section">
+    <h1>Hi, I am Joseph Flammia!</h1>
 
-    <div class="featured-writeups-header">
-      <h1>Featured Write-ups</h1>
-      <a href="/writeups/" class="btn btn-outline-primary">View All</a>
+    <p style="font-size: 1.4rem; margin-top: 25px;">
+      Cybersecurity student focused on networking, infrastructure, Windows Server, Active Directory, digital forensics, and security operations.
+    </p>
+
+    <div style="margin-top: 35px;">
+      <a href="/projects/" class="btn btn-primary" style="margin: 8px;">
+        View Projects
+      </a>
+
+      <a href="/writeups/" class="btn btn-outline-primary" style="margin: 8px;">
+        View Write-ups
+      </a>
     </div>
 
-    <div class="card featured-writeup-card">
-      <h3>
-        <a href="/assets/writeups/capstone-part-1-redacted.pdf" target="_blank">
-          Capstone Project Part 1
-        </a>
-      </h3>
-      <p>
-        Network infrastructure, Windows Server, Active Directory, routing, VLANs, and documentation.
-      </p>
-    </div>
+  </div>
+</section>
 
-    <div class="card featured-writeup-card">
-      <h3>
-        <a href="/assets/writeups/nmap-network-reconnaissance-lab.pdf" target="_blank">
-          Nmap Network Reconnaissance Lab
-        </a>
-      </h3>
-      <p>
-        Host discovery, port scanning, service enumeration, NSE scripts, and scan documentation.
-      </p>
-    </div>
+<section style="width: 100%; max-width: 1100px; margin: 80px auto; padding: 0 25px;">
 
-    <div class="card featured-writeup-card">
-      <h3>
-        <a href="/assets/writeups/memory-forensics-ctf-investigation.pdf" target="_blank">
-          Memory Forensics CTF Investigation
-        </a>
-      </h3>
-      <p>
-        Memory analysis, Volatility, process review, artifact extraction, decoding, and static analysis.
-      </p>
-    </div>
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 35px;">
+    <h1>Featured Write-ups</h1>
+    <a href="/writeups/" class="btn btn-outline-primary">View All</a>
+  </div>
 
-  </section>
-</div>
+  <div class="card" style="padding: 20px; margin-bottom: 20px;">
+    <h3>
+      <a href="/assets/writeups/capstone-part-1-redacted.pdf" target="_blank">
+        Capstone Project Part 1
+      </a>
+    </h3>
+    <p>
+      Network infrastructure, Windows Server, Active Directory, routing, VLANs, and documentation.
+    </p>
+  </div>
+
+  <div class="card" style="padding: 20px; margin-bottom: 20px;">
+    <h3>
+      <a href="/assets/writeups/nmap-network-reconnaissance-lab.pdf" target="_blank">
+        Nmap Network Reconnaissance Lab
+      </a>
+    </h3>
+    <p>
+      Host discovery, port scanning, service enumeration, NSE scripts, and scan documentation.
+    </p>
+  </div>
+
+  <div class="card" style="padding: 20px; margin-bottom: 20px;">
+    <h3>
+      <a href="/assets/writeups/memory-forensics-ctf-investigation.pdf" target="_blank">
+        Memory Forensics CTF Investigation
+      </a>
+    </h3>
+    <p>
+      Memory analysis, Volatility, process review, artifact extraction, decoding, and static analysis.
+    </p>
+  </div>
+
+</section>
