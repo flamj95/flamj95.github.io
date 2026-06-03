@@ -5,7 +5,7 @@
     </div>
 
     <div id="recent-articles-show-all">
-      <a class="btn btn-lg btn-dark" href="/writeups/"> View All </a>
+      <a class="btn btn-lg btn-dark" href="{{ site.url }}{{ site.baseurl }}/writeups/"> View All </a>
     </div>
   </div>
 
@@ -14,7 +14,13 @@
   <ul>
     {% for post in site.posts limit:3 %}
     <li class="article-card">
-      <a href="{{ post.url }}" class="article-card-link">
+      {% assign card_link = post.writeup_link | default: post.url %}
+
+      <a 
+        href="{{ site.url }}{{ site.baseurl }}{{ card_link }}" 
+        class="article-card-link"
+        {% if post.writeup_link %}target="_blank" rel="noopener noreferrer"{% endif %}
+      >
         <div id="article-container">
 
           <div id="article-img">
@@ -35,15 +41,25 @@
             <p class="recent-article-link">
               {{ post.title }}
               <span style="color: #ccc; font-size: 15px;">
-                - <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i>
+                - <i>
+                  <time datetime="{{ post.date }}" itemprop="datePublished">
+                    {{ post.date | date: "%b %-d, %Y" }}
+                  </time>
+                </i>
               </span>
             </p>
           </div>
 
           <div id="article-alert">
-            {% for cat in post.category limit:1 %}
-              <button class="btn btn-sm btn-dark">{{ cat }}</button>
-            {% endfor %}
+            {% if post.category %}
+              <button class="btn btn-sm btn-dark">{{ post.category }}</button>
+            {% elsif post.categories %}
+              {% for cat in post.categories limit:1 %}
+                <button class="btn btn-sm btn-dark">{{ cat }}</button>
+              {% endfor %}
+            {% else %}
+              <button class="btn btn-sm btn-dark">Write-up</button>
+            {% endif %}
           </div>
 
         </div>
