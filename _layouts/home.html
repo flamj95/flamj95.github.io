@@ -1,3 +1,18 @@
+---
+layout: full-width
+---
+
+<script>
+  $(document).ready(function() {
+    $("#typewriteText").typewrite({
+      actions: [{ type: "{{site.typewrite-text}}" }]
+    });
+  });
+</script>
+
+<!-- hero section-->
+{%- include hero.html -%}
+
 <div class="container">
   <div class="row">
     <div class="col-lg-8 mx-auto">
