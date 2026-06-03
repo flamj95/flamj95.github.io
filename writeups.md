@@ -39,7 +39,26 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 </div>
 
-## Active Directory Lab
+<div class="card" style="padding: 20px; margin-bottom: 25px;">
+  <h3>Active Directory User & Group Management Lab</h3>
+
+  <p>
+    This lab focused on creating Active Directory user accounts, organizing accounts into groups,
+    and assigning users to the appropriate security groups. The lab helped demonstrate basic
+    identity management and access organization within a Windows domain environment.
+  </p>
+
+  <p>
+    <strong>Focus:</strong> Active Directory Users and Computers, user account creation,
+    security groups, group membership, and identity management.
+  </p>
+
+  <p>
+    <a href="/assets/writeups/active-directory-user-group-management-lab.pdf" target="_blank">
+      View PDF Write-up
+    </a>
+  </p>
+</div>
 
 ## RADIUS Authentication Lab
 
