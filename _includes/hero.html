@@ -1,40 +1,80 @@
 <style>
-/* change cover_img in config.yml */
+/* Home hero section */
 .jumbotron {
-    background-color: var(--main-background-color) !important;
-    background-image: url('/assets/img/{{site.hero_cover_img}}');
-    text-align: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
-.jumbotron-btns {
-  display: block;
-  margin-top: 50px;
+  background-color: var(--main-background-color) !important;
+  background-image: url('/assets/img/{{ site.hero_cover_img }}');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+
+  width: 100%;
+  margin: 0 auto !important;
+  padding: 120px 25px 100px 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.jumbotron-heading, .lead {
+.author-profile-img {
+  display: block !important;
+  margin: 0 auto 30px auto !important;
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+}
+
+.jumbotron-heading {
   color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.lead {
+  color: #fff;
+  font-size: 1.25rem;
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.jumbotron-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 45px;
+  flex-wrap: wrap;
 }
 </style>
 
 <!-- home hero section -->
 <div class="jumbotron">
-  <img class="author-profile-img" src="{{site.url}}{{site.baseurl}}/assets/img/{{site.author_logo}}" />
-  <p class="jumbotron-heading">Hi, I am {{site.author}} !</p>
+  <img 
+    class="author-profile-img" 
+    src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author_logo }}" 
+    alt="{{ site.author }} profile picture"
+  />
+
+  <p class="jumbotron-heading">Hi, I am {{ site.author }}!</p>
 
   <p class="lead" id="typewriteText"></p>
-  <span>
-    {%- include github_star_button.html -%}
-    {%- include github_fork_button.html -%}
-  </span>
-  <!-- uncomment/modify buttons as you want-->
+
   <div class="jumbotron-btns">
-    <a href="{{site.url}}{{site.baseurl}}/get-started">
-      <button class="btn btn-md btn-warning"> <strong>Get Started</strong> </button>
+    <a href="{{ site.url }}{{ site.baseurl }}/projects/">
+      <button class="btn btn-md btn-warning">
+        <strong>View Projects</strong>
+      </button>
     </a>
-    <a id="olvy-target">
-      <button class="btn btn-md btn-default"> <strong>What's New</strong> </button>
-     </a>
+
+    <a href="{{ site.url }}{{ site.baseurl }}/writeups/">
+      <button class="btn btn-md btn-default">
+        <strong>View Write-ups</strong>
+      </button>
+    </a>
   </div>
 </div>
