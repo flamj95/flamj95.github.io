@@ -7,3 +7,27 @@
   color: blue;
 }
 
+.featured-writeups-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-writeups-section {
+  width: 100%;
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 25px;
+}
+
+.featured-writeups-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.featured-writeup-card {
+  padding: 20px;
+  margin-bottom: 20px;
+}
