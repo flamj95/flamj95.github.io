@@ -223,7 +223,7 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 
   <p>
-    <a href="/assets/writeups/nmap-network-reconnaissance-lab.pdf" target="_blank">
+    <a href="/assets/nmap-network-reconnaissance-lab.pdf" target="_blank">
       View PDF Write-up
     </a>
   </p>
@@ -248,7 +248,7 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 
   <p>
-    <a href="/assets/writeups/cleartext-ftp-traffic-analysis-lab.pdf" target="_blank">
+    <a href="/assets/cleartext-ftp-traffic-analysis-lab.pdf" target="_blank">
       View PDF Write-up
     </a>
   </p>
@@ -275,7 +275,7 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 
   <p>
-    <a href="/assets/writeups/openvas-vulnerability-assessment-lab.pdf" target="_blank">
+    <a href="/assets/openvas-vulnerability-assessment-lab.pdf" target="_blank">
       View PDF Write-up
     </a>
   </p>
