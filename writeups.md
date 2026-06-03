@@ -40,6 +40,8 @@ Here you can find some of my write-ups that I have written regarding several dif
 </div>
 
 ```html
+
+<div>
 <h2>Windows Server & Active Directory</h2>
 
 <div class="card" style="padding: 20px; margin-bottom: 25px;">
