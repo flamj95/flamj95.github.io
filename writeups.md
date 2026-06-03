@@ -61,7 +61,7 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 
   <p>
-    <a href="/assets/writeups/active-directory-user-group-management-lab.pdf" target="_blank">
+    <a href="/assets/active-directory-user-group-management-lab.pdf" target="_blank">
       View PDF Write-up
     </a>
   </p>
@@ -88,7 +88,7 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 
   <p>
-    <a href="/assets/writeups/group-policy-password-policy-lab.pdf" target="_blank">
+    <a href="/assets/group-policy-password-policy-lab.pdf" target="_blank">
       View PDF Write-up
     </a>
   </p>
@@ -114,7 +114,7 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 
   <p>
-    <a href="/assets/writeups/active-directory-certificate-services-lab.pdf" target="_blank">
+    <a href="/assets/active-directory-certificate-services-lab.pdf" target="_blank">
       View PDF Write-up
     </a>
   </p>
@@ -140,7 +140,7 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 
   <p>
-    <a href="/assets/writeups/secondary-domain-controller-replication-lab.pdf" target="_blank">
+    <a href="/assets/secondary-domain-controller-replication-lab.pdf" target="_blank">
       View PDF Write-up
     </a>
   </p>
