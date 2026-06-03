@@ -146,7 +146,60 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 </div>
 
-## RADIUS Authentication Lab
+<h2>Windows Server & Web Services</h2>
+
+<div class="card" style="padding: 20px; margin-bottom: 25px;">
+  <h3>IIS HTTPS & URL Rewrite Lab</h3>
+
+  <p>
+    This lab focused on configuring IIS on a Windows Server system, creating and binding
+    a certificate, testing HTTPS access, and using URL Rewrite to redirect HTTP traffic
+    to HTTPS.
+  </p>
+
+  <p>
+    <strong>Focus:</strong> IIS, Windows Server, domain joining, self-signed certificates,
+    HTTPS binding, URL Rewrite, and HTTP-to-HTTPS redirection.
+  </p>
+
+  <p>
+    <strong>Skills demonstrated:</strong> web server administration, certificate binding,
+    IIS configuration, HTTPS testing, and rewrite rule configuration.
+  </p>
+
+  <p>
+    <a href="/assets/writeups/iis-https-url-rewrite-lab.pdf" target="_blank">
+      View PDF Write-up
+    </a>
+  </p>
+</div>
+
+<div class="card" style="padding: 20px; margin-bottom: 25px;">
+  <h3>IIS Windows Authentication & Website Permissions Lab</h3>
+
+  <p>
+    This lab focused on securing an IIS website using Windows Authentication and file
+    system permissions. The lab included enabling Windows Authentication, disabling
+    Anonymous Authentication, granting access to a specific user, and later restricting
+    access through a dedicated Active Directory group.
+  </p>
+
+  <p>
+    <strong>Focus:</strong> IIS authentication, Windows Authentication, website permissions,
+    NTFS permissions, Active Directory users, security groups, and access control.
+  </p>
+
+  <p>
+    <strong>Skills demonstrated:</strong> IIS access control, authentication configuration,
+    user-based permissions, group-based permissions, and web server security.
+  </p>
+
+  <p>
+    <a href="/assets/writeups/iis-windows-authentication-permissions-lab.pdf" target="_blank">
+      View PDF Write-up
+    </a>
+  </p>
+</div>
 
 ## Digital Forensics Investigation
 
