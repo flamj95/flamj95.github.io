@@ -9,8 +9,42 @@ layout: full-width
     });
   });
 </script>
-    <!-- hero section-->
-    {%- include hero.html -%}
-    <div class="col-lg-8 offset-md-2">
-      {%- include recent_articles.html -%}
+
+<!-- hero section-->
+{%- include hero.html -%}
+
+<div class="col-lg-8 offset-md-2">
+  <section style="margin-top: 80px; margin-bottom: 80px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 35px;">
+      <h1>Featured Write-ups</h1>
+      <a href="/writeups/" class="btn btn-outline-primary">View All</a>
     </div>
+
+    <div class="card" style="padding: 20px; margin-bottom: 20px;">
+      <h3>
+        <a href="/assets/writeups/capstone-part-1-redacted.pdf" target="_blank">
+          Capstone Project Part 1
+        </a>
+      </h3>
+      <p>Network infrastructure, Windows Server, Active Directory, routing, VLANs, and documentation.</p>
+    </div>
+
+    <div class="card" style="padding: 20px; margin-bottom: 20px;">
+      <h3>
+        <a href="/assets/writeups/nmap-network-reconnaissance-lab.pdf" target="_blank">
+          Nmap Network Reconnaissance Lab
+        </a>
+      </h3>
+      <p>Host discovery, port scanning, service enumeration, NSE scripts, and scan documentation.</p>
+    </div>
+
+    <div class="card" style="padding: 20px; margin-bottom: 20px;">
+      <h3>
+        <a href="/assets/writeups/memory-forensics-ctf-investigation.pdf" target="_blank">
+          Memory Forensics CTF Investigation
+        </a>
+      </h3>
+      <p>Memory analysis, Volatility, process review, artifact extraction, decoding, and static analysis.</p>
+    </div>
+  </section>
+</div>
