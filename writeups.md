@@ -168,7 +168,7 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 
   <p>
-    <a href="/assets/writeups/iis-https-url-rewrite-lab.pdf" target="_blank">
+    <a href="/assets/iis-https-url-rewrite-lab.pdf" target="_blank">
       View PDF Write-up
     </a>
   </p>
@@ -195,7 +195,7 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 
   <p>
-    <a href="/assets/writeups/iis-windows-authentication-permissions-lab.pdf" target="_blank">
+    <a href="/assets/iis-windows-authentication-permissions-lab.pdf" target="_blank">
       View PDF Write-up
     </a>
   </p>
