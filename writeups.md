@@ -253,3 +253,30 @@ Here you can find some of my write-ups that I have written regarding several dif
     </a>
   </p>
 </div>
+
+<div class="card" style="padding: 20px; margin-bottom: 25px;">
+  <h3>OpenVAS Vulnerability Assessment Lab</h3>
+
+  <p>
+    This lab focused on installing and configuring OpenVAS/Greenbone on a Kali Linux system, 
+    creating scan credentials, adding a target host, running a vulnerability scan, and reviewing 
+    discovered vulnerabilities from the scan results.
+  </p>
+
+  <p>
+    <strong>Focus:</strong> OpenVAS, Greenbone Security Assistant, vulnerability scanning, 
+    authenticated scanning, target configuration, scan tasks, and vulnerability result review.
+  </p>
+
+  <p>
+    <strong>Skills demonstrated:</strong> vulnerability assessment, scan configuration, 
+    credentialed scanning, interpreting scan results, identifying vulnerable services, and 
+    reviewing remediation information.
+  </p>
+
+  <p>
+    <a href="/assets/writeups/openvas-vulnerability-assessment-lab.pdf" target="_blank">
+      View PDF Write-up
+    </a>
+  </p>
+</div>
