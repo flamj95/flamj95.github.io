@@ -7,19 +7,12 @@
   color: blue;
 }
 
-/* Center homepage hero/content more cleanly */
+/* Small homepage alignment correction */
+.home,
+#home,
 #hero,
 .hero,
 .hero-section,
-#home {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  background-position: center center !important;
-}
-
-/* Slightly nudge the homepage hero content to the right */
-#hero .container,
-.hero .container,
-.hero-section .container {
+.jumbotron {
   transform: translateX(25px);
 }
