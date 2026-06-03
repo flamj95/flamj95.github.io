@@ -201,12 +201,55 @@ Here you can find some of my write-ups that I have written regarding several dif
   </p>
 </div>
 
-## Digital Forensics Investigation
+<h2>Security Assessment & Network Analysis</h2>
 
-## Vulnerability Scanning Lab
+<div class="card" style="padding: 20px; margin-bottom: 25px;">
+  <h3>Nmap Network Reconnaissance Lab</h3>
 
-## SOC Alert Investigation
+  <p>
+    This lab focused on using Nmap to perform network reconnaissance against a controlled lab environment. 
+    The lab included host discovery, port scanning, service/version detection, UDP scanning, NSE script usage, 
+    targeted scans from a file, and exporting scan results.
+  </p>
 
-## Apache + CentOS Certificate Project
+  <p>
+    <strong>Focus:</strong> Nmap, host discovery, port scanning, service enumeration, UDP scanning, NSE scripts, 
+    and scan result documentation.
+  </p>
 
-## Nagios Monitoring Lab
+  <p>
+    <strong>Skills demonstrated:</strong> network reconnaissance, service identification, command-line scanning, 
+    scan result interpretation, and basic vulnerability discovery.
+  </p>
+
+  <p>
+    <a href="/assets/writeups/nmap-network-reconnaissance-lab.pdf" target="_blank">
+      View PDF Write-up
+    </a>
+  </p>
+</div>
+
+<div class="card" style="padding: 20px; margin-bottom: 25px;">
+  <h3>Cleartext FTP Traffic Analysis Lab</h3>
+
+  <p>
+    This lab focused on analyzing insecure FTP traffic using Wireshark in a controlled lab environment. 
+    The lab demonstrated how cleartext protocols can expose login credentials and transferred data when 
+    traffic is captured and inspected.
+  </p>
+
+  <p>
+    <strong>Focus:</strong> FTP, Wireshark, packet capture, TCP streams, cleartext credentials, and insecure protocol analysis.
+  </p>
+
+  <p>
+    <strong>Skills demonstrated:</strong> traffic analysis, packet filtering, TCP stream inspection, protocol analysis, 
+    and identifying risks with unencrypted services.
+  </p>
+
+  <p>
+    <a href="/assets/writeups/cleartext-ftp-traffic-analysis-lab.pdf" target="_blank">
+      View PDF Write-up
+    </a>
+  </p>
+</div>
