@@ -1,25 +1,54 @@
-<!-- Direct email contact section -->
+<!-- Direct email contact form layout -->
 
-<div class="card" style="padding: 25px; margin-bottom: 25px;">
-  <h1 class="card-title">Contact Me</h1>
+<form onsubmit="sendEmail(); return false;">
+  <div class="form-group">
+    <label for="contact_form_name">Your Name :</label>
+    <input 
+      type="text" 
+      class="form-control" 
+      name="name" 
+      id="contact_form_name" 
+      placeholder="Enter Your Name"
+    >
+  </div>
 
-  <p>
-    Feel free to reach out regarding entry-level IT, cybersecurity, SOC analyst,
-    help desk, internship, or project-related opportunities.
-  </p>
+  <div class="form-group">
+    <label for="contact_form_email">Your Email :</label>
+    <input 
+      type="email" 
+      class="form-control" 
+      name="email" 
+      id="contact_form_email" 
+      placeholder="Enter Your Email"
+    >
+  </div>
 
-  <p>
-    <a 
-      class="btn btn-lg btn-dark" 
-      href="mailto:josephflammia12@outlook.com?subject=Portfolio%20Contact">
-      Email Me
-    </a>
-  </p>
+  <div class="form-group">
+    <label for="contact_form_message">Your Message :</label>
+    <textarea 
+      name="message" 
+      class="form-control" 
+      id="contact_form_message" 
+      placeholder="Enter Your Message">
+    </textarea>
+  </div>
 
-  <p>
-    Or email me directly at:
-    <a href="mailto:josephflammia12@outlook.com">
-      josephflammia12@outlook.com
-    </a>
-  </p>
-</div>
+  <button type="submit" class="btn btn-lg btn-dark">Submit</button>
+</form>
+
+<script>
+  function sendEmail() {
+    var name = document.getElementById("contact_form_name").value;
+    var email = document.getElementById("contact_form_email").value;
+    var message = document.getElementById("contact_form_message").value;
+
+    var subject = encodeURIComponent("Portfolio Contact");
+    var body = encodeURIComponent(
+      "Name: " + name + "\n" +
+      "Email: " + email + "\n\n" +
+      "Message:\n" + message
+    );
+
+    window.location.href = "mailto:josephflammia12@outlook.com?subject=" + subject + "&body=" + body;
+  }
+</script>
