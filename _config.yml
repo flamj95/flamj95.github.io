@@ -24,6 +24,8 @@ urls:
       url : /contact
     - text: Write-ups
       url : /writeups/
+    - text: Resume
+      url : /resume/
     
 
 
