@@ -16,7 +16,7 @@ permalink: /resume/
       View Resume
     </a>
 
-    <a class="btn btn-lg btn-dark" href="/assets/Joseph_Flammia_Resume_Finalized" download>
+    <a class="btn btn-lg btn-dark" href="/assets/Joseph_Flammia_Resume_Finalized.pdf" download>
       Download Resume
     </a>
   </p>
