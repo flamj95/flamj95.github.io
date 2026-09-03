@@ -12,11 +12,11 @@ permalink: /resume/
   </p>
 
   <p>
-    <a class="btn btn-lg btn-dark" href="/assets/Joseph_Flammia_Resume.pdf" target="_blank">
+    <a class="btn btn-lg btn-dark" href="/assets/Joseph_Flammia_Resume_Finalized.pdf" target="_blank">
       View Resume
     </a>
 
-    <a class="btn btn-lg btn-dark" href="/assets/Joseph_Flammia_Resume" download>
+    <a class="btn btn-lg btn-dark" href="/assets/Joseph_Flammia_Resume_Finalized" download>
       Download Resume
     </a>
   </p>
